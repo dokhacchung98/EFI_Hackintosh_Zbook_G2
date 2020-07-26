@@ -1,0 +1,73 @@
+76:239  11:636  Found UEFI Acpi 2.0 RSDP at 45FFE014
+76:239  0:000  Saving ACPI tables from RSDP 45FFE014 to EFI\CLOVER\ACPI\origin ...
+76:239  0:000   45FFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+76:257  0:017    (Xsdt: 45FFE120, Rsdt: 45FFE0AC)
+76:257  0:000    45FFE120: 'XSDT', 'SLIC-MPC', Rev: 1, Len: 156 -> XSDT.aml
+76:279  0:022    45FFE0AC: 'RSDT', 'SLIC-MPC', Rev: 1, Len: 96 -> RSDT.aml
+76:293  0:013    Tables in Xsdt: 15
+76:293  0:000    0. 45FFC000: 'FACP', '1909', Rev: 5, Len: 268 -> FACP.aml
+76:306  0:013        (Dsdt: 45FD1000, Facs: 45DE4000, XDsdt: 45FD1000, XFacs: 45DE4000)
+76:306  0:000        45FD1000: 'DSDT', '1909', Rev: 2, Len: 153882 -> DSDT.aml
+76:326  0:019        45DE4000: 'FACS', Ver: 1, Len: 64 -> FACS.aml
+76:339  0:013    1. 45FFB000: 'HPET', '1909', Rev: 1, Len: 56 -> HPET.aml
+76:352  0:012    2. 45FFA000: 'APIC', '1909', Rev: 1, Len: 188 -> APIC.aml
+76:365  0:013    3. 45FF9000: 'MCFG', '1909', Rev: 1, Len: 60 -> MCFG.aml
+76:379  0:013    4. 45FF7000: 'TCPA', '1909', Rev: 2, Len: 50 -> TCPA.aml
+76:392  0:013    5. 45FCE000: 'SSDT', 'SataAhci', Rev: 1, Len: 1126 -> SSDT-0-SataAhci.aml
+76:406  0:014    6. 45FCD000: 'SSDT', 'PtidDevc', Rev: 1, Len: 1162 -> SSDT-1-PtidDevc.aml
+76:420  0:013    7. 45FCB000: 'FPDT', '1909', Rev: 1, Len: 68 -> FPDT.aml
+76:432  0:012    8. 45FCA000: 'BGRT', '1909', Rev: 0, Len: 56 -> BGRT.aml
+76:452  0:020    9. 45FC4000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1348 -> SSDT-2-Cpu0Ist.aml
+76:465  0:012    10. 45FC3000: 'SSDT', 'CpuPm', Rev: 1, Len: 2803 -> SSDT-3-CpuPm.aml (Found hidden SSDT 4 pcs)
+76:478  0:013        * 42730A98: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1348  53 53 44 54 44 05 00 00 01 0C 50 6D 52 65 66 00 Internal length = 1348 -> SSDT-x3_0-Cpu0Ist.aml
+76:491  0:012        * 45DE3698: 'SSDT', 'ApIst', Rev: 1, Len: 1499  53 53 44 54 DB 05 00 00 01 A2 50 6D 52 65 66 00 Internal length = 1499 -> SSDT-x3_1-ApIst.aml
+76:500  0:008        * 45DE2918: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 1011  53 53 44 54 F3 03 00 00 01 2F 50 6D 52 65 66 00 Internal length = 1011 -> SSDT-x3_2-Cpu0Cst.aml
+76:508  0:008        * 45DE1D98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 F5 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x3_3-ApCst.aml
+76:519  0:011  
+76:519  0:000    11. 45FC2000: 'SSDT', 'LakeTiny', Rev: 1, Len: 469 -> SSDT-4-LakeTiny.aml
+76:533  0:013    12. 45FC1000: 'SSDT', 'SaSsdt', Rev: 1, Len: 1798 -> SSDT-5-SaSsdt.aml
+76:546  0:013    13. 45FBE000: 'SSDT', 'NVSGTBL', Rev: 1, Len: 12072 -> SSDT-6-NVSGTBL.aml
+76:560  0:013    14. 45FF8000: 'ASF!', '1909', Rev: 32, Len: 165 -> ASF!.aml
+76:572  0:012    Tables in Rsdt: 15
+76:572  0:000    0. 45FFC000: 'FACP', '1909', Rev: 5, Len: 268
+76:572  0:000        (Dsdt: 45FD1000, Facs: 45DE4000, XDsdt: 45FD1000, XFacs: 45DE4000)
+76:572  0:000        45FD1000: 'DSDT', '1909', Rev: 2, Len: 153882
+76:576  0:003        45DE4000: 'FACS', Ver: 1, Len: 64
+76:576  0:000    1. 45FFB000: 'HPET', '1909', Rev: 1, Len: 56
+76:576  0:000    2. 45FFA000: 'APIC', '1909', Rev: 1, Len: 188
+76:576  0:000    3. 45FF9000: 'MCFG', '1909', Rev: 1, Len: 60
+76:576  0:000    4. 45FF7000: 'TCPA', '1909', Rev: 2, Len: 50
+76:576  0:000    5. 45FCE000: 'SSDT', 'SataAhci', Rev: 1, Len: 1126
+76:576  0:000    6. 45FCD000: 'SSDT', 'PtidDevc', Rev: 1, Len: 1162
+76:576  0:000    7. 45FCB000: 'FPDT', '1909', Rev: 1, Len: 68
+76:576  0:000    8. 45FCA000: 'BGRT', '1909', Rev: 0, Len: 56
+76:576  0:000    9. 45FC4000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1348
+76:576  0:000    10. 45FC3000: 'SSDT', 'CpuPm', Rev: 1, Len: 2803
+76:576  0:000    11. 45FC2000: 'SSDT', 'LakeTiny', Rev: 1, Len: 469
+76:576  0:000    12. 45FC1000: 'SSDT', 'SaSsdt', Rev: 1, Len: 1798
+76:576  0:000    13. 45FBE000: 'SSDT', 'NVSGTBL', Rev: 1, Len: 12072
+76:576  0:000    14. 45FF8000: 'ASF!', '1909', Rev: 32, Len: 165
+76:576  0:000  Found UEFI Acpi 1.0 RSDP at 45FFE000
+76:576  0:000  Printing ACPI tables from RSDP 45FFE000 ...
+76:576  0:000   45FFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+76:576  0:000    (Rsdt: 45FFE038)
+76:576  0:000    45FFE038: 'RSDT', 'SLIC-MPC', Rev: 1, Len: 96
+76:576  0:000    Tables in Rsdt: 15
+76:576  0:000    0. 45FFD000: 'FACP', '1909', Rev: 1, Len: 116
+76:576  0:000        (Dsdt: 45FD1000, Facs: 45DE4000)
+76:576  0:000        45FD1000: 'DSDT', '1909', Rev: 2, Len: 153882
+76:579  0:003        45DE4000: 'FACS', Ver: 1, Len: 64
+76:579  0:000    1. 45FFB000: 'HPET', '1909', Rev: 1, Len: 56
+76:579  0:000    2. 45FFA000: 'APIC', '1909', Rev: 1, Len: 188
+76:579  0:000    3. 45FF9000: 'MCFG', '1909', Rev: 1, Len: 60
+76:579  0:000    4. 45FF7000: 'TCPA', '1909', Rev: 2, Len: 50
+76:580  0:000    5. 45FCE000: 'SSDT', 'SataAhci', Rev: 1, Len: 1126
+76:580  0:000    6. 45FCD000: 'SSDT', 'PtidDevc', Rev: 1, Len: 1162
+76:580  0:000    7. 45FCB000: 'FPDT', '1909', Rev: 1, Len: 68
+76:580  0:000    8. 45FCA000: 'BGRT', '1909', Rev: 0, Len: 56
+76:580  0:000    9. 45FC4000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1348
+76:580  0:000    10. 45FC3000: 'SSDT', 'CpuPm', Rev: 1, Len: 2803
+76:580  0:000    11. 45FC2000: 'SSDT', 'LakeTiny', Rev: 1, Len: 469
+76:580  0:000    12. 45FC1000: 'SSDT', 'SaSsdt', Rev: 1, Len: 1798
+76:580  0:000    13. 45FBE000: 'SSDT', 'NVSGTBL', Rev: 1, Len: 12072
+76:580  0:000    14. 45FF8000: 'ASF!', '1909', Rev: 32, Len: 165
